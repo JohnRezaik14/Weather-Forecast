@@ -31,8 +31,8 @@ class WeatherService
             if (isset($data['main'])) {
                 echo $currentDate . "<br>";
                 echo "<br>";
-                echo "Condition: " . $data['weather'][0]['description'] . "<br>";
-                echo "<br>";
+
+                echo "<p>Condition: " . $data['weather'][0]['description'] . "</p>" . "<br>";
                 echo "Temperature: " . $data['main']['temp'] . " °C<br>";
                 echo "<br>";
                 echo "Humidity: " . $data['main']['humidity'] . " %<br>";

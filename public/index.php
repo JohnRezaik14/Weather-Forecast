@@ -20,6 +20,7 @@
 </head>
 <body>
     <h1>Weather Forecast</h1>
+
     <?php
         echo $weatherForm->render();
 
