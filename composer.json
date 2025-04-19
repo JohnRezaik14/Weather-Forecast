@@ -1,0 +1,11 @@
+{
+  "name": "iti/weather-service",
+  "autoload": {
+    "psr-4": {
+      "App\\": "Src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.9"
+  }
+}
